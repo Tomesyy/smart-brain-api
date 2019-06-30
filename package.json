@@ -4,7 +4,7 @@
   "description": "smart-brain app using a third party machine learning API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Adesanya Adetomiwa",
   "license": "ISC",
@@ -15,10 +15,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.18.0",
+    "nodemon": "^1.19.1",
     "pg": "^7.11.0",
     "save": "^2.4.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
   }
 }
