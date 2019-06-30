@@ -1,0 +1,24 @@
+{
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "description": "smart-brain app using a third party machine learning API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Adesanya Adetomiwa",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.18.0",
+    "pg": "^7.11.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
