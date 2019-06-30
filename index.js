@@ -33,6 +33,6 @@ app.put('/image', image.handleImage(db));
 app.post('/imageurl', image.handleApiCall);
 
 
-app.listen(4000, () => {
-    console.log('Smartbrain server running');
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Smartbrain server running on port ${process.env.PORT}`);
 });
