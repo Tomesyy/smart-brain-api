@@ -25,7 +25,7 @@ const saltRounds = 10;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/', (req, res) => { res.send(database.users) });
+app.get('/', (req, res) => { res.send('Smart Brain App is working ...') });
 app.post('/signin', signin.handleSignin(db, bcrypt ));
 app.post('/register', register.handleRegister(db, bcrypt, saltRounds ));
 app.get('/profile/:id', profile.handleProfile(db));
